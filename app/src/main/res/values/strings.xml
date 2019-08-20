@@ -1,40 +1,4 @@
 <resources>
-    <string name="app_name">IMPushDemo</string>
-    <string name="second_chat">聊天</string>
-    <string name="settings">设置</string>
-    <string name="none_msg">暂无消息</string>
-    <string name="first_im">通知</string>
-    <string name="first_push">推送</string>
-    <string name="first_title">消息</string>
-
-    <string name="first_receive_new_summary">开启新消息通知，第一时间获取重要通知和热点事件</string>
-    <string name="first_receive_new_title">接收新通知消息</string>
-    <string name="first_receive_im_summary">开启后，订阅消息，点赞，评论等将展示在通知栏</string>
-    <string name="first_receive_im_title">通知消息</string>
-    <string name="first_receive_push_summary">开启后，热点资讯，天气预报等优质资讯将展示在通知栏</string>
-    <string name="first_receive_push_title">推送消息</string>
-    <string name="first_show_im_summary">新消息通知显示发信人和内容摘要</string>
-    <string name="first_show_im_title">显示聊天消息详情</string>
-    <string name="first_receive_new_msg">receive_new_msg</string>
-    <string name="first_receive_im_all_msg">receive_im_all_msg</string>
-    <string name="first_receive_push_new_msg">receive_push_new_msg</string>
-    <string name="first_show_im_new_msg">show_im_new_msg</string>
-
-    <string name="setting_top">置顶消息(聚合类型不支持置顶)</string>
-    <string name="setting_receive_msg">接收消息</string>
-    <string name="setting_clear_msg">清空消息记录</string>
-
-    <string name="setting_key_agg_Info">agg_info</string>
-    <string name="setting_key_agg_des">agg_des</string>
-    <string name="setting_key_agg_top">agg_top</string>
-    <string name="setting_key_receive_msg">agg_receive_msg</string>
-    <string name="setting_key_clear_msg">agg_clear_msg</string>
-
-    <string name="delete_msgs">删除消息</string>
-
-    <string name="unreceive_unconcerned_msgs">你已拒绝接收未关注人消息。如需接收未关注人消息，
-        请点击右上角设置按钮重新设置</string>
-    <string name="bd_im_unconcerned_setting">未关注人消息</string>
-    <string name="bd_im_unconcerned_setting_des">你与未关注的用户的聊天消息全在这里</string>
+    <string name="app_name">Flutter_demo</string>
 
 </resources>
