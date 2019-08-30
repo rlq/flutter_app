@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements LifecycleOwner {
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, new FlutterFragment())
+                    .replace(R.id.container, new MainFragment())
                     .commitNow();
         }
     }
