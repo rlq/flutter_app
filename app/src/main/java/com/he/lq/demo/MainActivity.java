@@ -1,10 +1,10 @@
 package com.he.lq.demo;
 
 
+import android.arch.lifecycle.LifecycleOwner;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.LifecycleOwner;
 import io.flutter.facade.FlutterFragment;
 
 public class MainActivity extends AppCompatActivity implements LifecycleOwner {
