@@ -23,5 +23,19 @@ class MotionFragment : Fragment() {
         return inflater.inflate(R.layout.motion_frag, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+    }
+
+    private fun initMotion() {
+
+    }
+
+    private fun applyMotionWithAppBar() {
+
+    }
+
+
 
 }

@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentStatePagerAdapter
 import android.support.v4.view.ViewPager
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -32,10 +33,11 @@ class MainFragment : Fragment() {
             }
 
             override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {
-                mainViewPager?.setCurrentItem(position)
+
             }
 
             override fun onPageSelected(position: Int) {
+                mainViewPager?.setCurrentItem(position)
             }
         })
     }
