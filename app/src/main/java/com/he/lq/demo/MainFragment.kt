@@ -9,6 +9,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.android.he.lq.ble.BleFragment
 import com.android.he.lq.sdk.MotionFragment
 import io.flutter.facade.FlutterFragment
 
@@ -45,6 +46,8 @@ class MainFragment : Fragment() {
 
     private inner class MainAdapter(fm : FragmentManager) : FragmentStatePagerAdapter(fm) {
 
+        var itemCount = 3
+
         override fun getItem(position: Int): Fragment {
             when (position) {
                 0 -> {
@@ -52,14 +55,18 @@ class MainFragment : Fragment() {
                 }
                 1 -> {
                     return MotionFragment()
-                } else -> {
+                }
+                2 -> {
+                    return BleFragment()
+                }
+                else -> {
                     return MotionFragment()
                 }
             }
         }
 
         override fun getCount(): Int {
-            return 2
+            return itemCount
         }
     }
 
