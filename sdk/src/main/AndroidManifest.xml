@@ -13,5 +13,6 @@
     <application>
 
         <activity android:name="com.android.he.lq.ble.BleActivity"/>
+        <activity android:name="com.android.he.lq.ble.Ble2Activity"/>
     </application>
 </manifest>

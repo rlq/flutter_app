@@ -64,14 +64,15 @@ class BleFragment : Fragment() {
         }
 
 
-        bluetoothAdapter?.takeIf { it.isDisabled }?.apply {
-            val enableBtIntent = Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE)
-            startActivityForResult(enableBtIntent, Companion.REQUEST_ENABLE_BT)
-        }
-        scanLeDevice(true)
+//        bluetoothAdapter?.takeIf { it.isDisabled }?.apply {
+//            val enableBtIntent = Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE)
+//            startActivityForResult(enableBtIntent, Companion.REQUEST_ENABLE_BT)
+//        }
+//        scanLeDevice(true)
 
         // 这是第二种方法
-        context!!.startActivity(Intent(context, BleActivity::class.java))
+//        context!!.startActivity(Intent(context, BleActivity::class.java))
+        context!!.startActivity(Intent(context, Ble2Activity::class.java))
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
